@@ -19,12 +19,22 @@ const Title = styled.h1`
   margin: 75px auto;
   color: #764ABC;
   font-size: 3em;
+
+  @media screen and (max-width: 499px) {
+    font-size: 1.5em;
+    margin-bottom: 35px;
+  }
 `
 
 const Logo = styled.img`
   width: 50px;
   height: 50px;
   margin-right: 10px;
+
+  @media screen and (max-width: 499px) {
+    width: 25px;
+    height: 25px;
+  }
 `
 
 

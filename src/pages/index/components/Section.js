@@ -28,4 +28,5 @@ function CodeSectionContainer(props) {
 export const Section = styled(CodeSectionContainer)`
   margin: 20px;
   flex-grow: 1;
+  overflow: auto;
 `
