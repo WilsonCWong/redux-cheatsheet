@@ -2,6 +2,7 @@
   "name": "redux-cheatsheet",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://wilsonwong.me/redux-cheatsheet",
   "dependencies": {
     "prismjs": "^1.16.0",
     "react": "^16.8.6",
@@ -13,6 +14,8 @@
     "analyze": "source-map-explorer build/static/js/*.js",
     "start": "cross-env NODE_PATH=./ react-app-rewired start",
     "build": "cross-env NODE_PATH=./ react-app-rewired build",
+    "postbuild": "react-snap",
+    "deploy": "gh-pages -d build",
     "test": "cross-env NODE_PATH=./ react-app-rewired test",
     "eject": "cross-env NODE_PATH=./ react-scripts eject"
   },
@@ -34,7 +37,9 @@
   "devDependencies": {
     "babel-plugin-prismjs": "^1.0.2",
     "babel-plugin-styled-components": "^1.10.2",
+    "cross-env": "^5.2.0",
     "customize-cra": "^0.2.14",
+    "gh-pages": "^2.0.1",
     "react-app-rewired": "^2.1.3"
   }
 }

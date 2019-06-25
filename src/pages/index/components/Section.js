@@ -12,7 +12,7 @@ function CodeSectionContainer(props) {
   
   useEffect(() => {
     Prism.highlightAll();
-  }, [])
+  }, [props.snippet])
 
   return (
     <div className={props.className}>
