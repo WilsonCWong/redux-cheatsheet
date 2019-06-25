@@ -9,7 +9,7 @@ module.exports = override(
     "babel-plugin-styled-components",
     ["prismjs", {
         "languages": ["javascript", "jsx"],
-        "plugins": ["line-highlight"],
+        "plugins": ["line-highlight", "copy-to-clipboard"],
         "theme": 'okaidia',
         "css": true
     }]
