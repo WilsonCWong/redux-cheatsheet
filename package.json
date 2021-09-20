@@ -5,7 +5,7 @@
   "homepage": "http://wilsonwong.me/redux-cheatsheet",
   "dependencies": {
     "clipboard": "^2.0.4",
-    "prismjs": "^1.16.0",
+    "prismjs": "^1.25.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
